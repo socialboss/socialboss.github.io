@@ -2,10 +2,14 @@
   <div class="row">
     {% for item in site.data.model_gallery %}
     <div class="col-3">
-      <h2>{{ item.name }}</h2>
-      <div class="image">
-        <img src="{{ item.image }}" />
+      <div class="item-container">
+        <a href="{{ item.link }}">
+          <h2>{{ item.name }}</h2>
       </div>
+        <div class="image">
+          <img src="{{ item.image }}" />
+        </div>
+        </a>
     </div>
     {% endfor %}
   </div>

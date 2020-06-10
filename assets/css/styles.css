@@ -1,5 +1,10 @@
 img {
-    width: 100%;
-    height: auto;
-    vertical-align: middle;
-  }
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.item-container {
+  text-align: center;
+}
+
