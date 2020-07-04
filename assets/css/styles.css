@@ -8,3 +8,62 @@ img {
   text-align: center;
 }
 
+/*
+.row {
+  max-width: 100%;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+*/
+
+.landing-page-container {
+  margin: 25px;
+}
+
+body {
+  width: 100%;
+  
+}
+
+.jumbotron {
+  background-image: url("/assets/images/stock-photos/socialbossheroimage.jpg");
+  background-color: cyan;
+  background-size: contain;
+  width: auto;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lead {
+  text-align: center;
+  padding: 50vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.first-section-text {
+  text-align: center;
+}
+
+.col {
+  text-align: center;
+  border-style: solid;
+  border-width: thin;
+}
+
+.container {
+  padding: 40px;
+}
+
+i {
+  margin: 20px;
+}
+
