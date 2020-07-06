@@ -8,62 +8,97 @@ img {
   text-align: center;
 }
 
-/*
-.row {
-  max-width: 100%;
-  height: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-right: 10vw;
-  margin-left: 10vw;
-}
-*/
-
-.landing-page-container {
-  margin: 25px;
-}
-
 body {
   width: 100%;
-  
+  background-color: cyan;
 }
 
 .jumbotron {
   background-image: url("/assets/images/stock-photos/socialbossheroimage.jpg");
-  background-color: cyan;
   background-size: contain;
-  width: auto;
-  height: 100vh;
+  background-color: rgb(197, 197, 197);
   background-repeat: no-repeat;
   background-position: center;
+  height: 100vh;
 }
 
-.lead {
+.jumbotron-text {
+  color: rgb(255, 49, 111);
+  font-family: cursive;
+  text-decoration-line: underline;
+  margin-top: 35vh;
   text-align: center;
-  padding: 50vh;
+  font-size: 5em;
 }
 
-ul {
-  list-style-type: none;
+.jumbotron a {
+  text-decoration: none;
+}
+
+.call-to-action {
+  color: rgb(255, 49, 111);
+  font-family: cursive;
+  text-align: center;
 }
 
 .first-section-text {
   text-align: center;
 }
 
-.col {
+.first-section {
+  background-color: cyan;
+}
+
+.contact-section-headline {
   text-align: center;
+}
+
+.contact-section {
+  text-align: center;
+  background-color: rgb(255, 49, 111);
+  padding-top: 40px;
+}
+
+.contact-section-text {
+  padding-bottom: 40px;
+}
+
+.contact-section .col-sm {
   border-style: solid;
   border-width: thin;
 }
 
-.container {
-  padding: 40px;
-}
-
-i {
+.contact-section i {
   margin: 20px;
 }
+
+.contact-section a {
+  text-decoration: none;
+  color: black;
+}
+
+.col-sm {
+  text-align: center;
+}
+
+.col-md {
+  text-align: center;
+  border-style: solid;
+  border-width: thin;
+  margin: auto;
+}
+
+.container {
+  padding-bottom: 40px;
+}
+
+.container i {
+  margin: 20px;
+}
+
+
+
+
+
+
 
