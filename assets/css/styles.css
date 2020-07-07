@@ -1,3 +1,11 @@
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+  background-color: rgb(197, 197, 197);
+}
+
 img {
   width: 100%;
   height: auto;
@@ -8,44 +16,50 @@ img {
   text-align: center;
 }
 
-body {
-  width: 100%;
-  background-color: rgb(197, 197, 197);
-  overflow-x: hidden;
-}
-
-.jumbotron {
+.hero-section {
   background-image: url("/assets/images/stock-photos/socialbossheroimage.jpg");
   background-size: contain;
-  background-color: rgb(197, 197, 197);
+  background-color: rgb(255, 49, 111);
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-}
-
-.jumbotron-text {
   color: rgb(255, 49, 111);
-  text-decoration-line: underline;
-  margin-top: 35vh;
   text-align: center;
-  font-size: 5em;
 }
 
-.jumbotron a {
+.hero-section-text {
+  color: rgb(255, 49, 111);
+  text-align: center;
+  position: relative;
+  padding-top: 42vh;
+}
+
+.hero-section a {
   text-decoration: none;
+  color: rgb(255, 49, 111);
 }
 
-.call-to-action {
+.hero-section h3 {
+  display: inline-flex;
+  border-style: solid;
+  border-color: rgb(255, 49, 111);
+  width: fit-content;
+  background-color: rgb(255, 49, 111);
+  color: black;
+}
+
+.hero-section h3:hover {
+  background-color: black;
   color: rgb(255, 49, 111);
-  text-align: center;
 }
 
 .first-section-text {
   text-align: center;
+  padding-top: 40px;
 }
 
 .first-section {
-  background-color: rgb(163, 255, 255);
+  background-color: rgb(40, 247, 247);
 }
 
 .website-section {
@@ -106,6 +120,11 @@ body {
 
 .col-md {
   text-align: center;
+  margin: auto;
+}
+
+.contact-section .col-md {
+  text-align: center;
   border-style: solid;
   border-width: thin;
   margin: auto;
@@ -125,7 +144,7 @@ body {
 }
 
 .footer p {
-  color: white;
+  color: rgb(197, 197, 197);
   padding: 20px;
 }
 
