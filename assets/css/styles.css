@@ -10,10 +10,9 @@ img {
 
 body {
   width: 100%;
-  background-color: rgb(163, 255, 255);
+  background-color: rgb(197, 197, 197);
   overflow-x: hidden;
 }
-
 
 .jumbotron {
   background-image: url("/assets/images/stock-photos/socialbossheroimage.jpg");
@@ -22,7 +21,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .jumbotron-text {
@@ -39,7 +37,6 @@ body {
 
 .call-to-action {
   color: rgb(255, 49, 111);
-  font-family: cursive;
   text-align: center;
 }
 
