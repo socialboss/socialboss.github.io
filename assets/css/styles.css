@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -106,6 +107,8 @@ img {
   background-color: rgb(241, 57, 112);
   padding-top: 40px;
   align-items: center;
+  overflow-wrap: break-word;
+  padding-bottom: 20px;
 }
 
 .contact-section i {
@@ -117,6 +120,14 @@ img {
   color: black;
 }
 
+.contact-section .col-md-6.col-lg-4.col-xl:hover {
+  background-color: black;
+}
+
+.contact-section .stretched-link:hover {
+  color: rgb(241, 57, 112);
+}
+
 .col-sm {
   text-align: center;
 }
@@ -126,26 +137,10 @@ img {
   margin: auto;
 }
 
-.contact-section {
-  text-align: center;
-  overflow-wrap: break-word;
-  padding-bottom: 20px;
-}
-
-
-
-.contact-section .col-md-6, .col-lg-4, .col-xl {
+.contact-section .col-md-6,
+.col-lg-4,
+.col-xl {
   border-style: solid;
-  display: flexbox;
-}
-
-.contact-section .col-md-6 .col-lg-4 .col-xl :hover {
-
-}
-
-.contact-section i {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .container {
@@ -165,10 +160,3 @@ img {
   color: rgb(197, 197, 197);
   padding: 5px;
 }
-
-
-
-
-
-
-
