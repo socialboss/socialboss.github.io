@@ -1,6 +1,11 @@
 html, body {
   overflow-x: hidden;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: relative;
   background-color: rgb(197, 197, 197);
@@ -62,12 +67,18 @@ img {
   background-color: rgb(40, 247, 247);
 }
 
+.first-section p {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .website-section {
   background-color: rgb(203, 148, 255);
   padding-top: 40px;
+  text-align: center;
 }
 
-.website-section .col-md {
+.website-section .col-md-6, .col-lg-4 {
   border-style: none;
 }
 
@@ -94,16 +105,7 @@ img {
   text-align: center;
   background-color: rgb(241, 57, 112);
   padding-top: 40px;
-  overflow-wrap: normal;
-}
-
-.contact-section-text {
-  padding-bottom: 40px;
-}
-
-.contact-section .col-sm {
-  border-style: solid;
-  border-width: thin;
+  align-items: center;
 }
 
 .contact-section i {
@@ -124,11 +126,24 @@ img {
   margin: auto;
 }
 
-.contact-section .col-sm {
+.contact-section {
   text-align: center;
-  border-style: solid;
-  border-width: thin;
   margin: auto;
+  overflow-wrap: break-word;
+  padding-bottom: 20px;
+}
+
+.contact-section .col-md-6, .col-lg-4, .col-xl {
+  border-style: solid;
+}
+
+.contact-section .col-md-6, .col-lg-4, .col-xl :hover {
+
+}
+
+.contact-section i {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
@@ -146,7 +161,7 @@ img {
 
 .footer p {
   color: rgb(197, 197, 197);
-  padding: 20px;
+  padding: 5px;
 }
 
 
