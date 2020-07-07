@@ -94,6 +94,7 @@ img {
   text-align: center;
   background-color: rgb(241, 57, 112);
   padding-top: 40px;
+  overflow-wrap: normal;
 }
 
 .contact-section-text {
