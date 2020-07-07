@@ -50,6 +50,30 @@ body {
   background-color: cyan;
 }
 
+.website-section {
+  background-color: rgb(177, 93, 255);
+  padding-top: 40px;
+}
+
+.website-section .col-md {
+  border-style: none;
+}
+
+.website-section-text {
+  text-align: center;
+}
+
+.website-section i {
+  margin: 20px;
+}
+
+.website-section p {
+  padding-bottom: 20px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .contact-section-headline {
   text-align: center;
 }
