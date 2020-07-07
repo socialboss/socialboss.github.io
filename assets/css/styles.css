@@ -10,7 +10,7 @@ img {
 
 body {
   width: 100%;
-  background-color: cyan;
+  background-color: rgb(163, 255, 255);
   overflow-x: hidden;
 }
 
@@ -47,11 +47,11 @@ body {
 }
 
 .first-section {
-  background-color: cyan;
+  background-color: rgb(163, 255, 255);
 }
 
 .website-section {
-  background-color: rgb(177, 93, 255);
+  background-color: rgb(203, 148, 255);
   padding-top: 40px;
 }
 
@@ -80,7 +80,7 @@ body {
 
 .contact-section {
   text-align: center;
-  background-color: rgb(255, 49, 111);
+  background-color: rgb(241, 57, 112);
   padding-top: 40px;
 }
 
@@ -119,6 +119,16 @@ body {
 
 .container i {
   margin: 20px;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+}
+
+.footer p {
+  color: white;
+  padding: 20px;
 }
 
 
