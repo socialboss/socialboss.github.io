@@ -128,16 +128,18 @@ img {
 
 .contact-section {
   text-align: center;
-  margin: auto;
   overflow-wrap: break-word;
   padding-bottom: 20px;
 }
 
+
+
 .contact-section .col-md-6, .col-lg-4, .col-xl {
   border-style: solid;
+  display: flexbox;
 }
 
-.contact-section .col-md-6, .col-lg-4, .col-xl :hover {
+.contact-section .col-md-6 .col-lg-4 .col-xl :hover {
 
 }
 
